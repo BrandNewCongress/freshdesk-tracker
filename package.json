@@ -1,0 +1,31 @@
+{
+  "name": "freshdesk-tracker",
+  "version": "1.0.0",
+  "description": "Scrape Freshdesk for records on the status history of all tickets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandNewCongress/freshdesk-tracker.git"
+  },
+  "keywords": [
+    "freshdesk",
+    "BrandNewCongress",
+    "webdriverio"
+  ],
+  "author": "Ben Packer",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BrandNewCongress/freshdesk-tracker/issues"
+  },
+  "homepage": "https://github.com/BrandNewCongress/freshdesk-tracker#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cookie": "^0.3.1",
+    "freshdesk-api": "^2.2.1",
+    "superagent": "^3.5.0",
+    "webdriverio": "^4.6.2"
+  }
+}
