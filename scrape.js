@@ -64,6 +64,7 @@ const getTicketHistory = n => new Promise((resolve, reject) => {
         details
       }))
 
+      log('Lengths %d and %d', authorMailDetails.length, details.length)
       return resolve([authorMailDetails, details])
     })
   })
@@ -91,7 +92,7 @@ const processPage = page => new Promise((resolve, reject) => {
   })
 })
 
-processPage(65)
+processPage(1)
 .then(log)
 .catch(log)
 

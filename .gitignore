@@ -38,5 +38,6 @@ jspm_packages
 
 # Other
 dump/
+first-dump/
 cookies.json
 local-storage.json
