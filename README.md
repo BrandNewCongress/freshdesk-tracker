@@ -1,10 +1,6 @@
 # freshdesk-tracker
 Scrape Freshdesk for records on the status history of all tickets
 
-# Polling
-
-TODO
-
 # Historical Data
 
 To get all historical data, make sure you have `mocha` installed with `npm i -g mocha`
@@ -21,6 +17,8 @@ and run `node scrape.js`, which will produce `dump/*.json`.
 
 To upload those tickets to a MongoDB, have `MOGNODB_URI` set, and then run
 `node to-db.js`.
+
+# Polling
 
 From then on, you can keep the database in sync just be running `node index.js`
 on an interval.
